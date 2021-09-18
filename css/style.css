@@ -32,17 +32,58 @@ header nav ul li a{
 
 .nav-logo{
     width: 30%;
+    margin-left: 50px;
 }
 
 .nav-list{
     width: 40%;
     text-align: center;
+    margin-left: -50px;
 }
 
 .nav-btn{
     background-color: white;
     border-radius: 30px;
     padding: 5px 10px;
+    margin-right: 50px;
+    border: none;
+}
+
+.hero-description{
+    width: 50%;
+    text-align: center;
+    position:absolute;
+    top: 50%;
+    left:25%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+    color: white;
+}
+
+.hero-description h1{
+    font-size: 55px;
+}
+
+.hero-description p{
+    line-height: 25px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.header-btn{
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.header-btn-2{
+    background-color: #23272a;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-left: 20px;
 }
 
 /* Utilities */
