@@ -11,6 +11,7 @@ header{
     background-image: url(../img/jumbo.png);
     background-position: center;
     background-size: cover;
+    margin-bottom: 100px;
 }
 
 nav{
@@ -36,7 +37,7 @@ header nav ul li a{
 }
 
 .nav-list{
-    width: 40%;
+    width: 45%;
     text-align: center;
     margin-left: -50px;
 }
@@ -86,6 +87,80 @@ header nav ul li a{
     margin-left: 20px;
 }
 
+/* Sezioni Main */
+
+h2{
+    color: #23272a;
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 30px;
+}
+
+p{
+    line-height: 20px;
+    font-size: 17px;
+}
+
+h3{
+    color: #23272a;
+    font-size: 30px;
+}
+
+.stars{
+    transform: translateY(50%);
+}
+
+.main-btn{
+    background-color: #8ea1e1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgba(35,39,42,255);
+    color: white;
+    padding: 50px;
+}
+
+footer h3{
+    color: #7289da;
+    margin-bottom: 10px;
+}
+
+.lang img{
+    width: 20px;
+}
+
+footer i{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+footer ul{
+    list-style-type: none;
+    line-height: 25px;
+}
+
+.purple{
+    color: #7289da;
+}
+footer hr{
+    background-color: #8ea1e1;
+    margin-bottom: 30px;
+}
+footer button{
+    background-color: #8ea1e1;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
 /* Utilities */
 
 .float-left{
@@ -100,4 +175,50 @@ header nav ul li a{
     content: "";
     display: table;
     clear: both;
+}
+
+.center{
+    text-align: center;
+}
+/* Layout */
+
+.container-large{
+    width: 100%;
+    background-color: #f6f6f6;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.col-2-6{
+    width: calc(100% / 6 * 2);
+    padding: 35px;
+} 
+
+.col-4-6{
+    width: calc(100% / 6 * 4);
+}
+
+.col-4-6 img{
+    width: 80%;
+}
+
+/* Layout footer */
+
+.col-1_6{
+    width: calc(100% / 5 * 0,5);
+    margin-right: 80px;
+}
+
+.col-2_6{
+    width: calc(100% / 5 * 1);
+    margin-right: 80px;
+}
+
+.col-6-6{
+    width: 100%;
 }
